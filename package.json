@@ -1,7 +1,7 @@
 {
   "name": "cra-template-use-arv",
   "main": "template.json",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "keywords": [
     "react",
     "create-react-app",
@@ -9,10 +9,15 @@
     "redux",
     "reactstrap",
     "bootstrap",
-    "styled-components",
-    "react-router-dom"
+    "axios",
+    "react-router-dom",
+    "use-arv"
   ],
-  "description": "The base template for Create React App with Reactstrap, Redux, Bootstrap, React-router-dom and Styled-components modules loaded",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/debug-arun/cra-template-use-arv.git"
+  },
+  "description": "The base template for Create React App with Reactstrap, Redux, Bootstrap, React-router-dom and Axios modules loaded",
   "engines": {
     "node": ">=14"
   },
@@ -22,5 +27,35 @@
   "files": [
     "template",
     "template.json"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@reduxjs/toolkit": "^1.8.1",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.0.1",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^27.5.1",
+    "babel-preset-react-app": "^10.0.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.13.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "jest": "^27.5.1",
+    "prettier": "^2.6.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
+    "react-redux": "^8.0.0-rc.0",
+    "react-test-renderer": "^18.0.0",
+    "bootstrap": "^5.2.0",
+    "reactstrap": "^9.1.2",
+    "axios": "^0.27.2",
+    "redux": "^4.2.0"
+  }
 }
